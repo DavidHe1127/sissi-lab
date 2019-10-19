@@ -29,7 +29,7 @@ export default {
     }
   },
   methods: {
-    onSubmit(event) {
+    onSubmit() {
       if (!this.text) {
         alert("Enter some text to add");
       } else {
